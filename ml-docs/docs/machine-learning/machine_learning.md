@@ -9,11 +9,15 @@ Machine learning (ML) hay máy học là một nhánh của trí tuệ nhân t�
 Bài toán machine learning thường được chia làm hai loại là dự đoán (prediction) và phân loại (classification). Các bài toán dự đoán như dự đoán giá nhà, giá xe… Các bài toán phân loại như nhận diện chữ viết tay, nhận diện đồ vật…
 
 Phân loại ML:
+
 - Supervíed learning: học có giám sát, làm việc trên tập dữ liệu đã được gắn nhãn.
 - Unsupervised learning: học không giám sát, làm việc trên tập dữ liệu không được gắn nhãn, các thuật toán sẽ tìm ra sự tương quan dữ liệu.
 - Reinforcement learning: học tăng cường, thuật toán tự tìm những quy luật (hay `action`) để đạt được nhiều `reward` nhất, ví dụ các thuật toán cho cờ vua.
 
 Các loại thuật toán ML được trình bày:
-- <a href="../machine-learning/tree-based-models/decision-tree">Decision Tree</a>.
-- <a href="../machine-learning/tree-based-models/random-forest">Random Forest</a>.
-- <a href="../machine-learning/association-rule-mining/apriori">Apriori</a>.
+
+- Supervised learning:
+  - <a href="../machine-learning/tree-based-models/decision-tree">Decision Tree</a>.
+  - <a href="../machine-learning/tree-based-models/random-forest">Random Forest</a>.
+- Unspervised learning:
+  - <a href="../machine-learning/association-rule-mining/apriori">Apriori</a>.

@@ -21,3 +21,4 @@ Các loại thuật toán ML được trình bày:
   - <a href="../machine-learning/tree-based-models/random-forest">Random Forest</a>.
 - Unspervised learning:
   - <a href="../machine-learning/association-rule-mining/apriori">Apriori</a>.
+  - Frequent Pattern-Tree.

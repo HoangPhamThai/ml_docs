@@ -10,7 +10,7 @@ Bài toán machine learning thường được chia làm hai loại là dự đo
 
 Phân loại ML:
 
-- Supervíed learning: học có giám sát, làm việc trên tập dữ liệu đã được gắn nhãn.
+- Supervised learning: học có giám sát, làm việc trên tập dữ liệu đã được gắn nhãn.
 - Unsupervised learning: học không giám sát, làm việc trên tập dữ liệu không được gắn nhãn, các thuật toán sẽ tìm ra sự tương quan dữ liệu.
 - Reinforcement learning: học tăng cường, thuật toán tự tìm những quy luật (hay `action`) để đạt được nhiều `reward` nhất, ví dụ các thuật toán cho cờ vua.
 

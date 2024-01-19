@@ -8,11 +8,11 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'MAS DOCUMENT',
+  title: 'ML DOCUMENT',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://mas-docs.com',
+  url: 'https://ml-docs.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -63,9 +63,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'MAS Documents',
+        title: 'ML Documents',
         logo: {
-          alt: 'MAS Documents Logo',
+          alt: 'ML Documents Logo',
           src: 'img/logo.svg',
         },
         items: [

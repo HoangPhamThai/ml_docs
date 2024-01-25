@@ -17,6 +17,7 @@ Phân loại ML:
 Các loại thuật toán ML được trình bày:
 
 - Supervised learning:
+  - <a href="../machine-learning/support-vector-machine">Support Vector Machine</a>.
   - <a href="../machine-learning/tree-based-models/decision-tree">Decision Tree</a>.
   - <a href="../machine-learning/tree-based-models/random-forest">Random Forest</a>.
 - Unspervised learning:

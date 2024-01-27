@@ -253,7 +253,7 @@ Với bài toán soft margin, ta chấp nhận có một số điểm dữ liệ
 
 <Figure caption="Biến slack thể hiện mức độ phân loại sai trong bài toán soft margin" src="/img/svm/soft-margin-slack.png" figId="2.4"/>
 
-Ví dụ mô hình soft margin có biến $\xi_i$ được thể hiện ở Hình [2.4](fig.2.4). Miền giá trị của $\xi_i$ được định nghĩa như sau:
+Ví dụ mô hình soft margin có biến $\xi_i$ được thể hiện ở Hình [2.4](#fig2.4). Miền giá trị của $\xi_i$ được định nghĩa như sau:
 
 - Điểm dữ liệu $\bm{x_i}$ thuộc đúng miền và ở ngoài vùng margin: $\xi_i = 0$.
 - $\bm{x_i}$ thuộc đúng miền nhưng ở trong vùng giữa hai margin: $0 < \xi_i < 1$.
@@ -270,7 +270,7 @@ eqId="2.17"
 
 với $C$ là một hằng số dương, đóng vai trò điều chỉnh tầm quan trọng của margin (khoảng cách giữa hai đường biên) và sai số phân loại. Từ công thức [2.17](#eq2.17), ta thấy được ý nghĩa của từng thành phần như sau:
 
-- Số hạng $\frac{1}{2}||\bm{w}||^2_2$: thể hiện <EmphasisText content='độ mất mát khoảng cách'/>. Việc tối thiểu số hạng này sẽ làm tối đa $margin$ như đã nêu ở phương trình [2.5](eq2.5).
+- Số hạng $\frac{1}{2}||\bm{w}||^2_2$: thể hiện <EmphasisText content='độ mất mát khoảng cách'/>. Việc tối thiểu số hạng này sẽ làm tối đa $margin$ như đã nêu ở phương trình [2.5](#eq2.5).
 
 - Số hạng $\sum_{i=0}^{N-1}\xi_i$: thể hiện <EmphasisText content='độ mất mát phân loại'/>. Nếu $\sum_{i=0}^{N-1}\xi_i = 0$, với ràng buộv $\xi_i \geq 0, \forall i=0,1,...,N-1$, thì $\xi_i = 0, \forall i=0,1,...,N-1$. Như vậy không có một điểm dữ liệu nào bị phân loại sai. Bài toán quay về trường hợp [Hard margin](#211-hard-margin-classification).
 
